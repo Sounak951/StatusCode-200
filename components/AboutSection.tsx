@@ -26,7 +26,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Guru Nanak Institute of Technology (2022-2026)</li>
-        {/*<li>University of California, Santa Cruz</li>*/}
+        {/*<li>University of California, Santa Cruz</li>*/} 
       </ul>
     ),
   },
@@ -69,12 +69,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            Nothing more just a nerd guy into tech who build most of the stuff by breaking and then putting it back together. Exploring the bugs is what facinates me.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
