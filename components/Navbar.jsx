@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="fixed w-full top-0 left-0 right-0 z-50 bg-[#121212] border-b border-[#33353F]">
       <div className="flex items-center justify-between mx-auto px-4 py-2 lg:py-4 max-w-7xl">
         <Link href="/" className="text-2xl md:text-5xl text-white font-semibold">
-          LOGO
+          SOUNAK
         </Link>
 
         {/* Mobile hamburger */}

@@ -33,15 +33,15 @@ const projectsData = [
     previewUrl: "/",
   },
   
-  //{
-  //  id: 4,
-  //  title: "",
-  //description: "",
-  //  image: "",
-  //  tag: ["All", "Mobile"],
-  //  gitUrl: "/",
-  //  previewUrl: "/",
-  //},
+  {
+   id: 4,
+    title: "",
+  description: "",
+   image: "/images/projects/4.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
   //{
   //  id: 5,
   //  title: "",
