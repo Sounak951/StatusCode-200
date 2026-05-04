@@ -7,8 +7,8 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Quick AI",
+    description: "Tech Stack - React.js, Mongodb, Gemini Api, TailwindCSS ",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -16,8 +16,8 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Project Management",
+    description: "Tech Stack - React.js, Prisma, PostgeSQL, Clerk, TailwindCSS",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -25,8 +25,8 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Suppor AI - AI Integrated Chatbot",
+    description: "Tech Stack - Next.js, TailwindCSS, Mongodb, Scalekit, Shadcn UI, Gemini API, Typescript",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
