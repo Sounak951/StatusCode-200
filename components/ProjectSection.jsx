@@ -7,12 +7,12 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Quick AI",
+    title: "Quick GPT",
     description: "Tech Stack - React.js, Mongodb, Gemini Api, TailwindCSS ",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: process.env.NEXT_PUBLIC_PROJECT1_GIT || "/",
+    previewUrl: process.env.NEXT_PUBLIC_PROJECT1_PREVIEW || "/",
   },
   {
     id: 2,
