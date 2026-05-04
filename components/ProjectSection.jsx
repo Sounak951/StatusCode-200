@@ -32,33 +32,34 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
-  {
-    id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+  
+  //{
+  //  id: 4,
+  //  title: "",
+  //description: "",
+  //  image: "",
+  //  tag: ["All", "Mobile"],
+  //  gitUrl: "/",
+  //  previewUrl: "/",
+  //},
+  //{
+  //  id: 5,
+  //  title: "",
+  //  description: "",
+  //  image: "",
+  //  tag: ["All", "Web"],
+  //  gitUrl: "/",
+  //  previewUrl: "/",
+  //},
+  //{
+  //  id: 6,
+  //  title: "",
+  //  description: "",
+  //  image: "",
+  //  tag: ["All", "Web"],
+  //  gitUrl: "/",
+  //  previewUrl: "/",
+  //},
 ];
 
 const ProjectsSection = () => {
@@ -84,6 +85,8 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         Some of my Lastest Works
       </h2>
+
+      {/*
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
@@ -101,6 +104,10 @@ const ProjectsSection = () => {
           isSelected={tag === "Mobile"}
         />
       </div>
+      */}
+
+
+
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
