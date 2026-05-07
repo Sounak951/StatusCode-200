@@ -35,8 +35,8 @@ const projectsData = [
   
   {
    id: 4,
-    title: "",
-  description: "",
+    title: "URL Shortener",
+  description: "Tech Stack - Next.js, Prisma, PostgeSQL, Docker, TailwindCSS, Shadcn UI",
    image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
